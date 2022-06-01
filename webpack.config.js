@@ -148,5 +148,5 @@ class WebpackBundle {
 module.exports = [
     WebpackBundle.forCartridge("app_storefront_base"),
     WebpackBundle.forCartridge("app_storefront_custom"),
-    // WebpackBundle.forCartridge("app_training")
+    WebpackBundle.forCartridge("app_training")
 ];

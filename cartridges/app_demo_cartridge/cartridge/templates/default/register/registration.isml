@@ -1,0 +1,18 @@
+<isdecorate template="common/layout/page">
+    <div class="hero slant-down login-banner">
+        <h1 class="page-title">Registration</h1>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <ul>
+                    ${/* displaying each information from the user, sent from the controller */}
+                    <li><strong>Full name:</strong> ${pdict.userData.userFirstName} ${pdict.userData.userLastName}</li>
+                    <li><strong>Email address:</strong> ${pdict.userData.userEmail}</li>
+                    <li><strong>Phone number:</strong> ${pdict.userData.userPhone}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</isdecorate>
